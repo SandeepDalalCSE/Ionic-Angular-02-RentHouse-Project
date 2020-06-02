@@ -91,11 +91,18 @@ We will generating an `auth` page in which we will implement our logic to work w
 We will generating an `places` page in which we will implement our logic where we can view all the places we can book as well as offer new places.
 | No. | Steps |
 |----|----|
-|5 | Just execute this command to generate a page `places` directly `ionic generate page places` . |
+|1 | Just execute this command to generate a page `places` directly `ionic generate page places` . |
 
 ## Generating a `discover` page inside places folder using Ionic CLI
 ### Description
 We will generating an `discover` page in which we will implement our logic where we'll have our discover area here where we can discover places we can book.
 | No. | Steps |
 |----|----|
-|5 | Just execute this command to generate a page `places` directly `ionic generate page places/discover` . |
+|1 | Just execute this command to generate a page `places` directly `ionic generate page places/discover` . |
+
+## Generating a `offers` page inside places folder using Ionic CLI
+### Description
+We will generating an `offers` page in which we will implement our logic where in order to be able to discover something people need to be able to offer places.
+| No. | Steps |
+|----|----|
+|1 | Just execute this command to generate a page `places` directly `ionic generate page places/offers` . |
