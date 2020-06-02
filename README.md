@@ -120,3 +120,10 @@ We will generating an `edit-offer` page in which we will implement our logic bas
 | No. | Steps |
 |----|----|
 |1 | Just execute this command to generate a page `edit-offer` directly `ionic generate page places/offers/edit-offer` . |
+
+## Generating a `place-detail` page inside discover folder using Ionic CLI
+### Description
+We will generating an `place-detail` page in which we will implement our logic to see the details of a single place. Basically When we are in discover page where we can see all the places we can book. Now when we tap on one of these places we want to see the details. For that we need a `place-detail` page for single place.
+| No. | Steps |
+|----|----|
+|1 | Just execute this command to generate a page `place-detail` directly `ionic generate page places/discover/place-detail` . |
