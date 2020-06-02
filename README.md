@@ -74,9 +74,9 @@ We will create and setup an ionic project with named 'Ionic-Angular-02-RentHouse
 # Working with 'Ionic-Angular-02-RentHouse-Project'
 
 
-## Generating a auth page using Ionic CLI
+## Generating a `auth` page using Ionic CLI
 ### Description
-We will generating an auth page in which we will implement our logic to work with the authentication of users.
+We will generating an `auth` page in which we will implement our logic to work with the authentication of users.
 
 | No. | Steps |
 |---- | ---------
@@ -85,3 +85,10 @@ We will generating an auth page in which we will implement our logic to work wit
 |3 | Now choose `page` from the list that Ionic CLI gave you and then Ionic CLI will ask **_Name/path of page:_** type `auth` |
 |4 | Ionic CLI will generate a page `auth` for you and also configure everything for this page. like adds routes, adjusts app-routing.module.ts to include the path for `recipes` page using lazy-loading.  
 |5 | Alternative, just execute this command to generate a page `recipes` directly `ionic generate page recipes` . This is do the same as above.|
+
+## Generating a `places` page using Ionic CLI
+### Description
+We will generating an `places` page in which we will implement our logic where we can view all the places we can book as well as offer new places.
+| No. | Steps |
+|----|----|
+|5 | Just execute this command to generate a page `places` directly `ionic generate page places` . |
