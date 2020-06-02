@@ -134,3 +134,10 @@ We will generating an `offer-bookings` page in which we will implement our logic
 | No. | Steps |
 |----|----|
 |1 | Just execute this command to generate a page `offer-bookings` directly `ionic generate page places/offers/offer-bookings` . |
+
+## Generating a `bookings` next to places folder using Ionic CLI
+### Description
+We will generating an `bookings` page in which we will implement our logic where we also have the bookings we made ourselves.
+| No. | Steps |
+|----|----|
+|1 | Just execute this command to generate a page `bookings` directly `ionic generate page bookings` . |
