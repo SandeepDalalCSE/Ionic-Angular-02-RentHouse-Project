@@ -83,8 +83,8 @@ We will generating an `auth` page in which we will implement our logic to work w
 |1 | In VS Code/Any Editor's terminal, Using Ionic CLI; create a page with name 'auth'. |
 |2 | Execute command `ionic generate` then Ionic CLI will ask **_what would you like to generate ?_** | 
 |3 | Now choose `page` from the list that Ionic CLI gave you and then Ionic CLI will ask **_Name/path of page:_** type `auth` |
-|4 | Ionic CLI will generate a page `auth` for you and also configure everything for this page. like adds routes, adjusts app-routing.module.ts to include the path for `recipes` page using lazy-loading.  
-|5 | Alternative, just execute this command to generate a page `recipes` directly `ionic generate page recipes` . This is do the same as above.|
+|4 | Ionic CLI will generate a page `auth` for you and also configure everything for this page. like adds routes, adjusts app-routing.module.ts to include the path for `auth` page using lazy-loading.  
+|5 | Alternative, just execute this command to generate a page `auth` directly `ionic generate page auth` . This is do the same as above.|
 
 ## Generating a `places` page using Ionic CLI
 ### Description
@@ -98,18 +98,25 @@ We will generating an `places` page in which we will implement our logic where w
 We will generating an `discover` page in which we will implement our logic where we'll have our discover area here where we can discover places we can book.
 | No. | Steps |
 |----|----|
-|1 | Just execute this command to generate a page `places` directly `ionic generate page places/discover` . |
+|1 | Just execute this command to generate a page `discover` directly `ionic generate page places/discover` . |
 
 ## Generating a `offers` page inside places folder using Ionic CLI
 ### Description
 We will generating an `offers` page in which we will implement our logic where in order to be able to discover something people need to be able to offer places.
 | No. | Steps |
 |----|----|
-|1 | Just execute this command to generate a page `places` directly `ionic generate page places/offers` . |
+|1 | Just execute this command to generate a page `offers` directly `ionic generate page places/offers` . |
 
 ## Generating a `new-offer` page inside offers folder using Ionic CLI
 ### Description
 We will generating an `new-offer` page in which we will implement our logic basically where we will be able to enter the data for a new place we want to offer.
 | No. | Steps |
 |----|----|
-|1 | Just execute this command to generate a page `places` directly `ionic generate page places/offers/new-offer` . |
+|1 | Just execute this command to generate a page `new-offer` directly `ionic generate page places/offers/new-offer` . |
+
+## Generating a `edit-offer` page inside offers folder using Ionic CLI
+### Description
+We will generating an `edit-offer` page in which we will implement our logic basically where we will be able to edit the offered places details.
+| No. | Steps |
+|----|----|
+|1 | Just execute this command to generate a page `edit-offer` directly `ionic generate page places/offers/edit-offer` . |
