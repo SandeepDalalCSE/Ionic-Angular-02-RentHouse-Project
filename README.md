@@ -127,3 +127,10 @@ We will generating an `place-detail` page in which we will implement our logic t
 | No. | Steps |
 |----|----|
 |1 | Just execute this command to generate a page `place-detail` directly `ionic generate page places/discover/place-detail` . |
+
+## Generating a `offer-bookings` page inside offers folder using Ionic CLI
+### Description
+We will generating an `offer-bookings` page in which we will implement our logic where we all do want to be able to see bookings. With that I mean both bookings for places we offered as well as our own bookings now for places we offered.
+| No. | Steps |
+|----|----|
+|1 | Just execute this command to generate a page `offer-bookings` directly `ionic generate page places/offers/offer-bookings` . |
