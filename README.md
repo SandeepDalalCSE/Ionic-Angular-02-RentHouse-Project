@@ -106,3 +106,10 @@ We will generating an `offers` page in which we will implement our logic where i
 | No. | Steps |
 |----|----|
 |1 | Just execute this command to generate a page `places` directly `ionic generate page places/offers` . |
+
+## Generating a `new-offer` page inside offers folder using Ionic CLI
+### Description
+We will generating an `new-offer` page in which we will implement our logic basically where we will be able to enter the data for a new place we want to offer.
+| No. | Steps |
+|----|----|
+|1 | Just execute this command to generate a page `places` directly `ionic generate page places/offers/new-offer` . |
