@@ -141,3 +141,13 @@ We will generating an `bookings` page in which we will implement our logic where
 | No. | Steps |
 |----|----|
 |1 | Just execute this command to generate a page `bookings` directly `ionic generate page bookings` . |
+
+# Adding `ion-tabs` to our project/app 
+### Description
+* We will adding tabs to implement a tab-based navigation. Tabs are a top level navigation component. The component is a container of individual Tab components.
+
+* The `ion-tabs` component does not have any styling and works as a router outlet in order to handle navigation. It does not provide any UI feedback or mechanism to switch between tabs. In order to do so, an `ion-tab-bar` should be provided as a direct child of `ion-tabs`.
+
+* Both `ion-tabs` and `ion-tab-bar` can be used as standalone elements. They don’t depend on each other to work, but they are usually used together in order to implement a tab-based navigation that behaves like a native app.
+
+* The `ion-tab-bar` needs a slot defined in order to be projected to the right place in an ion-tabs component.
