@@ -73,10 +73,10 @@ We will create and setup an ionic project with named 'Ionic-Angular-02-RentHouse
 
 # Working with 'Ionic-Angular-02-RentHouse-Project'
 
-### Description
-We will generating an auth page in which we will implement our logic to work with the authentication of users.
 
 ## Generating a auth page using Ionic CLI
+### Description
+We will generating an auth page in which we will implement our logic to work with the authentication of users.
 
 | No. | Steps |
 |---- | ---------
