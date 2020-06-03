@@ -151,3 +151,10 @@ We will generating an `bookings` page in which we will implement our logic where
 * Both `ion-tabs` and `ion-tab-bar` can be used as standalone elements. They don’t depend on each other to work, but they are usually used together in order to implement a tab-based navigation that behaves like a native app.
 
 * The `ion-tab-bar` needs a slot defined in order to be projected to the right place in an ion-tabs component.
+
+## Generating a `places` service in places folder using Ionic CLI
+### Description
+We will generating an `places` service in which we will implement our logic to render the list of places and its state management.
+| No. | Steps |
+|----|----|
+|1 | Just execute this command to generate a service `places` directly `ionic generate service places/places` . |
