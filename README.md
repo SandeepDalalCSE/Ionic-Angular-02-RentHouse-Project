@@ -158,3 +158,7 @@ We will generating an `places` service in which we will implement our logic to r
 | No. | Steps |
 |----|----|
 |1 | Just execute this command to generate a service `places` directly `ionic generate service places/places` . |
+
+## Creating a `place.model.ts` model file in places folder manually
+### Description
+We will creating an `place.model.ts` model file in which we will define our structure/properties of our place with property as id, title, description, imageUrl, price, etc.
