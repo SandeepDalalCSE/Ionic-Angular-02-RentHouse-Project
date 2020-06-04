@@ -169,3 +169,11 @@ We will generating an `auth` service in which we will implement our logic for au
 | No. | Steps |
 |----|----|
 |1 | Just execute this command to generate a service `auth` directly `ionic generate service auth/auth` . |
+
+## Generating a `auth` guard in auth folder using Ionic CLI
+### Description
+We will generating an `auth` guard in which we will implement our logic for preventing un-authorize access.
+| No. | Steps |
+|----|----|
+|1 | Just execute this command to generate a guard `auth` directly `ionic generate guard auth/auth` . |
+|2 | Select CanLoad interface and the press 'Enter' . |
