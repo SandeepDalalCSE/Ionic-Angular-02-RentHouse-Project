@@ -177,3 +177,10 @@ We will generating an `auth` guard in which we will implement our logic for prev
 |----|----|
 |1 | Just execute this command to generate a guard `auth` directly `ionic generate guard auth/auth` . |
 |2 | Select CanLoad interface and the press 'Enter' . |
+
+## Generating a `create-booking` component in bookings folder using Ionic CLI
+### Description
+We will generating an `create-booking` component in which we will implement our logic in such a way that this component will be used as a model in our project/app
+| No. | Steps |
+|----|----|
+|1 | Just execute this command to generate a component `create-booking` directly `ionic generate component bookings/create-booking` . |
