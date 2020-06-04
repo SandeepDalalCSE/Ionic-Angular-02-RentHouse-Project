@@ -1,14 +1,23 @@
 import { Injectable } from '@angular/core';
-import { CanLoad, Route, UrlSegment, ActivatedRouteSnapshot, RouterStateSnapshot, UrlTree } from '@angular/router';
+import { CanLoad, Route, UrlSegment, ActivatedRouteSnapshot, RouterStateSnapshot, UrlTree, Router } from '@angular/router';
 import { Observable } from 'rxjs';
+import { AuthService } from './auth.service';
 
 @Injectable({
   providedIn: 'root'
 })
 export class AuthGuard implements CanLoad {
+
+  constructor(private authService: AuthService, private router: Router) { }
+
   canLoad(
     route: Route,
     segments: UrlSegment[]): Observable<boolean> | Promise<boolean> | boolean {
-    return true;
+    if (!this.authService.userIsAuthenticated) {
+      this.router.navigateByUrl('/auth');
+      return;
+    }
+    // return true; // this returns a boolean value, here we want that it should work if user is authenticated.
+    return this.authService.userIsAuthenticated;
   }
 }
