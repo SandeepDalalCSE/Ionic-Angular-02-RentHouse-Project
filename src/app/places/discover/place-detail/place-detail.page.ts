@@ -50,7 +50,7 @@ export class PlaceDetailPage implements OnInit {
       }).then(resultData => {
         console.log(resultData.data, resultData.role); // finding which button was clicked on modal.
 
-        if (resultData === 'confirm') {
+        if (resultData.role === 'confirm') {
           console.log('booked!');
         }
       });
