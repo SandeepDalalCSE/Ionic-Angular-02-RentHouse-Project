@@ -162,3 +162,10 @@ We will generating an `places` service in which we will implement our logic to r
 ## Creating a `place.model.ts` model file in places folder manually
 ### Description
 We will creating an `place.model.ts` model file in which we will define our structure/properties of our place with property as id, title, description, imageUrl, price, etc.
+
+## Generating a `auth` service in auth folder using Ionic CLI
+### Description
+We will generating an `auth` service in which we will implement our logic for authentication of user.
+| No. | Steps |
+|----|----|
+|1 | Just execute this command to generate a service `auth` directly `ionic generate service auth/auth` . |
